@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4a0eb056ab.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header class="header center">
+        <div class="header__left">
+            <a class="heder__logo" href="index.html"><img src="img/headerLogo.svg" alt="Logo"></a>
+            <img src="img/search.svg" alt="Search">
+        </div>
+        <div class="header__right">
+            <details class="burger-menu">
+                <summary class="burger-menu__summary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="23" viewBox="0 0 32 23" fill="none">
+                        <path d="M0 23V20.31H32V23H0ZM0 12.76V10.07H32V12.76H0ZM0 2.69V0H32V2.69H0Z" fill="#E8E8E8" />
+                    </svg>
+                </summary>
+                <div class="burger-menu__content">
+                    <h3 class="burger-menu__title">MENU</h3>
+                    <details open class="burger-menu__item">
+                        <summary class="burger-menu__item__summary"><span class="burger-menu__item__head">MAN</span>
+                        </summary>
+                        <div class="burger-menu__link-box">
+                            <a href="#" class="filter__link">Accessories</a>
+                            <a href="#" class="filter__link">Bags</a>
+                            <a href="#" class="filter__link">Denim</a>
+                            <a href="#" class="filter__link">T-Shirts</a>
+                        </div>
+                    </details>
+                    <details open class="burger-menu__item">
+                        <summary class="burger-menu__item__summary"><span class="burger-menu__item__head">WOMAN</span>
+                        </summary>
+                        <div class="burger-menu__link-box">
+                            <a href="#" class="filter__link">Accessories</a>
+                            <a href="#" class="filter__link">Jackets & Coats</a>
+
+                            <a href="#" class="filter__link">Polos</a>
+                            <a href="#" class="filter__link">T-Shirts</a>
+                            <a href="#" class="filter__link">Shirts</a>
+                        </div>
+                    </details>
+                    <details open class="burger-menu__item">
+                        <summary class="burger-menu__item__summary"><span class="burger-menu__item__head">KIDS</span>
+                        </summary>
+                        <div class="burger-menu__link-box">
+                            <a href="#" class="filter__link">Accessories</a>
+                            <a href="#" class="filter__link">Jackets & Coats</a>
+                            <a href="#" class="filter__link">Polos</a>
+                            <a href="#" class="filter__link">T-Shirts</a>
+                            <a href="#" class="filter__link">Shirts</a>
+                            <a href="#" class="filter__link">Bags</a>
+                        </div>
+                    </details>
+                </div>
+
+            </details>
+            <a class="header__right__link" href="registration.html"><img src="img/header_menu2.svg" alt="Menu"></a>
+            <a class="header__right__link header__right__link__product_cart" href="cart.html"><img
+                    src="img/header_menu3.svg" alt="Menu"></a>
+        </div>
+    </header>
+    <section class="head center">
+        <h2 class="head__title">SHOPPING CART</h2>
+    </section>
+    <section class="cart center">
+        <div class="cart__left">
+            <div class="cart__left__product">
+                <img class="cart__left__product__img" src="img/product3.jpg" alt="product img">
+                <div class="cart__left__product__info">
+                    <h1 class="cart__left__product__info__title">MANGO PEOPLE T&nbsp-&nbspSHIRT</h1>
+                    <p class="cart__left__product__info__text cart__left__product__info__text1">Price:</p>
+                    <p class="cart__left__product__info__text cart__left__product__info__text2">Color:</p>
+                    <p class="cart__left__product__info__text cart__left__product__info__text3">Size:</p>
+                    <p class="cart__left__product__info__text cart__left__product__info__text4">Quantity:</p>
+                </div>
+            </div>
+            <div class="cart__left__product">
+                <img class="cart__left__product__img" src="img/catalo-product22.jpg" alt="product img">
+                <div class="cart__left__product__info">
+                    <h1 class="cart__left__product__info__title">MANGO PEOPLE T&nbsp-&nbspSHIRT</h1>
+                    <p class="cart__left__product__info__text cart__left__product__info__text1">Price:</p>
+                    <p class="cart__left__product__info__text cart__left__product__info__text2">Color:</p>
+                    <p class="cart__left__product__info__text cart__left__product__info__text3">Size:</p>
+                    <p class="cart__left__product__info__text cart__left__product__info__text4">Quantity:</p>
+                </div>
+            </div>
+            <div class="cart__left__buttons">
+                <a class="cart__left__buttons__link" href="#">CLEAR SHOPPING CART</a>
+                <a class="cart__left__buttons__link" href="catalog.html">CONTINUE SHOPPING</a>
+            </div>
+        </div>
+        <div class="cart__right">
+            <form class="cart__right__form" action="#">
+                <h3 class="cart__right__form__title">SHIPPING ADRESS</h3>
+                <input class="cart__right__form__input" type="text" name="Country" placeholder="Country">
+                <input class="cart__right__form__input" type="text" name="State" placeholder="State">
+                <input class="cart__right__form__input" type="text" name="Postcode / Zip" placeholder="Postcode / Zip">
+                <input class="cart__right__form__submit" type="submit" value="GET A QUOTE">
+
+            </form>
+            <div class="cart__right-box">
+                <div class="cart__right__final">
+                    <h4 class="cart__right__final__sub">SUB TOTAL</h4>
+                    <h3 class="cart__right__final__grand">GRAND TOTAL</h3>
+                </div>
+                <div class="cart__right__box-button">
+                    <button class="cart__right__button">PROCEED TO CHECKOUT</button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="subscription center">
+        <figure class="subscription__left">
+            <img class="subscription__left__foto" src="img/footer_foto.png" alt="foto">
+            <figcaption class="subscription__left__text"> “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a
+                pulvinar purus condimentum“
+            </figcaption>
+        </figure>
+        <div class="subscription__right">
+            <p class="subscription__right__title subscription__right__title__bold">SUBSCRIBE</p>
+            <p class="subscription__right__title">FOR OUR NEWLETTER AND PROMOTION</p>
+            <form class="subscription__right__form" action="#">
+                <input class="subscription__right__form__input" type="email" name="email" value="Enter Your Email"
+                    id="email">
+                <input class="subscription__right__form__input__submit" type="submit" value="Subscribe">
+            </form>
+        </div>
+    </section>
+    <footer class="footer center">
+        <p class="footer__text">© 2022 Brand All Rights Reserved.</p>
+        <div class="footer__right">
+            <div class="footer__right__icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+</html>
